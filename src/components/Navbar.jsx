@@ -6,8 +6,8 @@ const Navbar =()=>{
     return(
      <>
 {/* NavBar Container */}
-      <div className="bg-[#201c1c] flex justify-center items-center  ">
-      <div className="py-8 bg-[#201c1c] flex justify-center gap-[250px] items-center border-b-[3px] border-[#383434] ">
+      <div className="bg-[#191919] flex justify-center items-center  ">
+      <div className="py-8 flex justify-center gap-[250px] items-center border-b-[1px] border-[#303030] ">
 
 {/* logo */}
      <div>
