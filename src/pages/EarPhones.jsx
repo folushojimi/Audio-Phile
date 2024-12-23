@@ -1,6 +1,6 @@
-import Navbar from "../components/navbar"
+import Navbar from "../components/Navbar"
 
-const Earphones =()=>{
+const EarPhones =()=>{
     return(
         <>
          <Navbar/>
@@ -8,4 +8,4 @@ const Earphones =()=>{
     )
 }
 
-export default Earphones
+export default EarPhones

@@ -2,7 +2,7 @@ const Home =()=>{
     return(
         <>
         <div className=" bg-[#191919] w-full h-[38rem]">
-         <div className="flex justify-center items-center gap-6 text-white bg-[#191919]">
+         <div className="flex justify-center items-center gap-16 text-white bg-[#191919]">
 
             <div>
              <h1 className="pb-2 font-bold">NEW PRODUCT</h1>
@@ -18,7 +18,7 @@ const Home =()=>{
             </div>
 
             <div>
-             <img src="/images/home-img.jpg" alt=""  className="w-[600px] h-[600px]"/>
+             <img src="/images/home-img.jpg" alt="home-image"  className="w-[600px] h-[600px]"/>
             </div>
             </div>
         </div>

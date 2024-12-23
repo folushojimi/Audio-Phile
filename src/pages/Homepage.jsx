@@ -1,11 +1,12 @@
 import Home from "../components/Home"
-import Navbar from "../components/navbar"
+import Navbar from "../components/Navbar"
 
 const Homepage =()=>{
+    
     return(
         <>
-       <Navbar/>
-       <Home/>
+        <Navbar/>
+        <Home/>
         </>
     )
 }

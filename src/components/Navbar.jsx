@@ -1,10 +1,11 @@
-import { BrowserRouter, Link } from "react-router-dom"
-// import audiophile from "../assets/audiophile-logo.png"
-BrowserRouter
+import {Link} from "react-router-dom"
 
+  
+// import audiophile from "../assets/audiophile-logo.png"
+ 
 const Navbar =()=>{
     return(
-     <>
+      <>
 {/* NavBar Container */}
       <div className="bg-[#191919] flex justify-center items-center  ">
       <div className="py-8 flex justify-center gap-[250px] items-center border-b-[1px] border-[#303030] ">
@@ -29,6 +30,7 @@ const Navbar =()=>{
            
      </div>
       </div>
+
      </>
     )
 }

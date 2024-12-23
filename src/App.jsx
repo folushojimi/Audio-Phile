@@ -1,23 +1,29 @@
-import { BrowserRouter, Routes, Route, Link} from "react-router-dom"
+import { BrowserRouter, Routes, Route,} from "react-router-dom"
 import Homepage from "./pages/Homepage"
-import HeadPhones from "./pages/HeadPhones"
-import Speakers from "./pages/Speaker"
-import Earphones from "./pages/EarPhones"
+import
+ 
+// import {HomePage} from "./pages/Homepage"
+// import {HeadPhones} from "./pages/HeadPhones"
+// import {Speakers} from "./pages/Speaker"
+// import {EarPhones} from "./pages/EarPhones"
+
+ 
 const App  =()=>{
 
+return(
 
- return(
-  <BrowserRouter>
-     <>
-    <Routes>
-      
-     <Route path="/" element={<Homepage/>}/>
-     <Route path="/headphones" element={<HeadPhones/>}/>
-     <Route path="/speakers" element={<Speakers/>}/>
-     <Route path="/earphones" element={<Earphones/>}/>
-    </Routes>
-     </>
-  </BrowserRouter>
+    <BrowserRouter>
+    <>
+      <Routes>
+        <Route path="/" element={<Homepage/>}/>
+        <Route path="/" element={<HeadPhones/>}/>
+        <Route path="/" element={}/>
+        <Route path="/" element={}/>
+
+      </Routes>
+    </>
+    </BrowserRouter>
+
     )
 }
    
