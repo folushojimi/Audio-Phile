@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route,} from "react-router-dom"
 import Homepage from "./pages/Homepage"
-import
  
 // import {HomePage} from "./pages/Homepage"
 // import {HeadPhones} from "./pages/HeadPhones"
@@ -17,8 +16,8 @@ return(
       <Routes>
         <Route path="/" element={<Homepage/>}/>
         <Route path="/" element={<HeadPhones/>}/>
-        <Route path="/" element={}/>
-        <Route path="/" element={}/>
+        {/* <Route path="/" element={}/>
+        <Route path="/" element={}/> */}
 
       </Routes>
     </>
