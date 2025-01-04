@@ -11,9 +11,14 @@ const Navbar =()=>{
       <div className="py-8 flex justify-center gap-[250px] items-center border-b-[1px] border-[#303030] ">
 
 {/* logo */}
-     <div>
+     {/* <div>
      <img src="/images/logo.svg" alt="audiophile" className="cursor-pointer"/>
-     </div>
+     </div> */}
+
+<div>
+<Link to={"/"}><img src="/images/logo.svg" alt="audiophile" className="cursor-pointer"/></Link>
+</div>
+
 
 {/* pages */}
      <div className="flex gap-9 font-semibold text-white">

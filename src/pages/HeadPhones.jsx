@@ -1,11 +1,11 @@
 import Navbar from "../components/Navbar"
 
-const HeadPhones  =()=>{
+const HeadPhones =()=>{
     return(
         <>
-         <Navbar/>
+        <Navbar/>
         </>
     )
 }
 
-export default HeadPhones 
+export default HeadPhones
