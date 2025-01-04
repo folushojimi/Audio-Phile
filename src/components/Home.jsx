@@ -2,7 +2,7 @@ const Home =()=>{
     return(
         <>
         <div className=" bg-[#191919] w-full h-[38rem]">
-         <div className="flex justify-center items-center gap-16 text-white bg-[#191919]">
+         <div className="flex justify-center items-center gap-16 text-white bg-[#191919] font-Manrope">
 
             <div>
              <h1 className="pb-2 font-bold">NEW PRODUCT</h1>
